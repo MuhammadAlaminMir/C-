@@ -1,8 +1,11 @@
+// Relational or Comparision Operators
 #include <iostream>
 using namespace std;
 
 int main(void)
 {
+    // We can compare two values or variables that they are:
+    //  (equal, smaller or equal, greater or equal, not equal, greater or smaller)
 
     // In C++ 0 means false and 1 means true
     int a = 35;

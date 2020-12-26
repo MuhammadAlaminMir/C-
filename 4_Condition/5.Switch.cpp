@@ -5,7 +5,7 @@ int main(void)
 {
     int day_Number;
     cout << "Enter Day Number " << endl;
-    scanf(" %d", &day_Number);
+    cin >>" %d", &day_Number);
 
     switch (day_Number)
     {

@@ -15,6 +15,6 @@
         4. Switch Statement
 
 
-    I know js . and C Programming language condition are same as js .
+    I know js . and C++ Programming language condition are same as js .
 
  */

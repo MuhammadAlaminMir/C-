@@ -55,11 +55,11 @@ int main()
 
     // integer type variable:
     int my_int_variable = 45;
-    // printf("my_int_variable + 5 = %d\n", my_int_variable + 5);
-    // printf("my_int_variable - 5 = %d\n", my_int_variable - 5);
-    // printf("my_int_variable * 5 = %d\n", my_int_variable * 5);
-    // printf("my_int_variable / 5 = %d\n", my_int_variable / 5);
-    // printf("my_int_variable = %d\n", my_int_variable);
+    // cout <<"my_int_variable + 5 = %d\n", my_int_variable + 5);
+    // cout <<"my_int_variable - 5 = %d\n", my_int_variable - 5);
+    // cout <<"my_int_variable * 5 = %d\n", my_int_variable * 5);
+    // cout <<"my_int_variable / 5 = %d\n", my_int_variable / 5);
+    // cout <<"my_int_variable = %d\n", my_int_variable);
 
     // dynamicly uses of variable
     int a = 10;

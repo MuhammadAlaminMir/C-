@@ -3,7 +3,7 @@
     we can store our variable address into a pointer variable.
 
     Why we need pointer??
-   And:: Pointers are used to store and manage the addresses of dynamically allocated blocks of memory. 
+   Ans:: Pointers are used to store and manage the addresses of dynamically allocated blocks of memory. 
     Such blocks are used to store data objects or arrays of objects. Most structured and object-oriented languages provide an area of memory, 
     called the heap or free store, from which objects are dynamically allocated.
 */

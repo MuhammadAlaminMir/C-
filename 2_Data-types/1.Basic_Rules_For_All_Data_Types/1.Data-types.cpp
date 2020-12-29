@@ -22,7 +22,8 @@
     .Struct 
     .Uninon
     .Enum
-    note: Insallah I will explane them in latter.
+    . typedef 
+    
 
     Derived Data types:
     .Array

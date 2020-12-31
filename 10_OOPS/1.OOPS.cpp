@@ -21,9 +21,6 @@
     Object:
     Any entity that has state and behavior is known as an object. For example: chair, pen, table, keyboard, bike etc. It can be physical and logical.
 
-    Class:
-    Collection of objects is called class. It is a logical entity.
-
     Inheritance:
     When one object acquires all the properties and behaviors of parent object i.e. known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism.
 

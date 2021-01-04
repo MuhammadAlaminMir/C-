@@ -24,6 +24,9 @@
     Class: Collection of objects is called class. It is a logical entity.
     Class work almost like structure. But in class we get some benefits like: (data hiding). In classes we can declare functions
 
+    Encapsulation:
+    Binding (or wrapping) code and data together into a single unit is known as encapsulation. For example: capsule, it is wrapped with different medicines.
+
     Inheritance:
     When one object acquires all the properties and behaviors of parent object i.e. known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism.
 
@@ -36,7 +39,4 @@
     Hiding internal details and showing functionality is known as abstraction. For example: phone call, we don't know the internal processing.
 
     In C++, we use abstract class and interface to achieve abstraction.
-
-    Encapsulation:
-    Binding (or wrapping) code and data together into a single unit is known as encapsulation. For example: capsule, it is wrapped with different medicines.
 */

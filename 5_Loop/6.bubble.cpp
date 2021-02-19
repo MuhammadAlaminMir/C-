@@ -1,4 +1,5 @@
-#include <iostream> using namespace std;
+#include <iostream>
+using namespace std;
 
 int main()
 {
@@ -9,8 +10,8 @@ int main()
 
     while (1)
     {
-        cout <<"Enter a value : ");
-        cin >>"%d", &value);
+        cout << "Enter a value : ";
+        cin >> value;
 
         for (int i = 0; i < 10; i++)
         {
@@ -27,7 +28,7 @@ int main()
         }
         else
         {
-            cout <<"value already exist \n");
+            cout << "value already exist \n";
         }
         if (size == 10)
         {
@@ -35,10 +36,10 @@ int main()
         }
         isFound = 0;
     }
-    cout <<"unsorted ");
+    cout << "unsorted ";
     for (int i = 0; i < 10; i++)
     {
-        cout <<"%d ", arr[i]);
+        cout << arr[i];
     }
     for (int i = 0; i < 10; i++)
     {
@@ -52,12 +53,12 @@ int main()
             }
         }
     }
-    cout <<"\n");
+    cout << "\n";
 
-    cout <<"sorted ");
+    cout << "sorted ";
     for (int i = 0; i < 10; i++)
     {
-        cout <<"%d ", arr[i]);
+        cout << arr[i];
     }
 
     // int a[] = {33, 20, -10, -8, 23, 34};
@@ -78,7 +79,7 @@ int main()
     // }
     // for (int i = 0; i < length; i++)
     // {
-    //     cout <<"%d ", a[i]);
+    //     cout << a[i];
     // }
 
     return 0;

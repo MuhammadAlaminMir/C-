@@ -11,15 +11,19 @@ int fact(int n)
     }
     return factorial;
 }
-
 int main()
 {
 
     int n;
     cin >> n;
 
-    int ans = fact(n);
-    cout << ans << endl;
-
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j <= i; j++)
+        {
+            cout << fact(i) / (fact(j) * fact(i - j));
+        }
+        cout << endl;
+    }
     return 0;
 }

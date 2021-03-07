@@ -15,13 +15,34 @@ using namespace std;
 // }
 
 // Fibonacci sequence using recursive function
-int fib(int n)
+// int fib(int n)
+// {
+//     if (n < 2)
+//     {
+//         return 1;
+//     }
+//     return fib(n - 2) + fib(n - 1);
+// }
+
+// Replace Pi
+void replacePi(string s)
 {
-    if (n < 2)
+
+    if (s.length() == 0)
     {
-        return 1;
+        return;
     }
-    return fib(n - 2) + fib(n - 1);
+
+    if (s[0] == 'p' && s[1] == 'i')
+    {
+        cout << "3.14";
+        replacePi(s.substr(2));
+    }
+    else
+    {
+        cout << s[0];
+        replacePi(s.substr(1));
+    }
 }
 
 int main()
@@ -30,7 +51,10 @@ int main()
     cout << "Give us the chosen Number ";
     cin >> n;
     // cout << "The factorial of " << n << " is " << factorial(n) << endl;
-    cout << "The fibonacci at prosition " << n << " is " << fib(n) << endl;
+    // co t << "The fibonacci at prosition " << n << " is " << fib(n) << endl;
+
+    // Replace Pi:
+    replacePi("pppidsepidwe");
 
     return 0;
 }
